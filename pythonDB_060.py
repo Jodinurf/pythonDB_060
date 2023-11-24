@@ -124,3 +124,6 @@ label_hasil3.pack()
 
 label_hasil4 = tk.Label(frame_hasil, text="")
 label_hasil4.pack()
+
+# Jalankan Aplikasi
+root.mainloop()
