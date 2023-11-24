@@ -52,13 +52,13 @@ def show():
     hasil1 = f"Nilai Biologi: {biologi}"
     hasil2 = f"Nilai Fisika: {fisika}"
     hasil3 = f"Nilai Bahasa Inggris: {inggris}"
-    hasil3 = f"Hasil Prediksi Fakultas : {Prediksi}"
+    hasil4 = f"Hasil Prediksi Fakultas : {Prediksi}"
 
     label_hasilSiswa.config(text=hasilSiswa)
     label_hasil1.config(text=hasil1)
     label_hasil2.config(text=hasil2)
     label_hasil3.config(text=hasil3)
-
+    label_hasil4.config(text=hasil4)
    
     frame_hasil.pack()
     simpan_data_ke_sqlLite(nama_Siswa=nama_Siswa, biologi=biologi, fisika=fisika, inggris=inggris, prediksi_Fakultas=Prediksi)
