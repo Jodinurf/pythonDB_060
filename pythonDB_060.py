@@ -101,3 +101,26 @@ label_Inggris = tk.Label(frame_input, text="Nilai Inggris: ")
 label_Inggris.grid(row=3, column=0, pady=10)
 entry_Inggris = tk.Entry(frame_input)
 entry_Inggris.grid(row=3, column=1)
+
+# Tombol Hasil
+btn_hasil = tk.Button(root, text="Submit", command=show)
+btn_hasil.pack(pady=10)
+
+frame_hasil = tk.LabelFrame(root, labelanchor="n", padx=10, pady=10)
+frame_hasil.pack_forget()
+
+# Label Hasil
+label_hasilSiswa = tk.Label(frame_hasil, text="")
+label_hasilSiswa.pack()
+
+label_hasil1 = tk.Label(frame_hasil, text="")
+label_hasil1.pack()
+
+label_hasil2 = tk.Label(frame_hasil, text="")
+label_hasil2.pack()
+
+label_hasil3 = tk.Label(frame_hasil, text="")
+label_hasil3.pack()
+
+label_hasil4 = tk.Label(frame_hasil, text="")
+label_hasil4.pack()
